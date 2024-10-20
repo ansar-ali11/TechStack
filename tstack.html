@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tstack.css">
+</head>
+
+<body>
+    <nav id="home">
+        <img src="techlogo.png" alt="">
+        <div class="tags">
+            <a href="#home">Home</a>
+            <a href="#about">about</a>
+            <a href="#compilers">compilers</a>
+            <a href="#contact">contact</a>
+        </div>
+    </nav>
+    <div class="bg">
+        <h2>Welcome to TechStack</h2>
+        <p>Here you can have all the requirements to prepare for your placements <br>
+            your ultimate destination for gearing up your career in technology. Here, you'll find all the resources <br>
+            you need to prepare for your placements. Our goal is to empower you with the knowledge and skills <br> to
+            excel in your tech career. Join us and start your journey towards success today!"
+        </p>
+    </div>
+    <div class="container">
+        <div class="card">
+            <div class="logo">
+                <img src="https://img.freepik.com/free-vector/data-economy-isometric-composition-with-flowchart-digital-keys-neon-glowing-holograms-cubes-server-racks-vector-illustration_1284-79927.jpg?size=626&ext=jpg&ga=GA1.1.1218635537.1726047661&semt=ais_hybrid"
+                    alt="">
+                <div class="card-content">
+                    <p><strong>Data Structures and Algorithms (DSA)</strong> are critical in computer science. They help
+                        you <em>organize</em> and <em>process data</em> efficiently, enhance problem-solving skills, and
+                        design optimized solutions. DSA mastery is key in technical interviews and provides a foundation
+                        for advanced topics. Essentially, DSA boosts your programming abilities and opens up tech career
+                        opportunities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="logo">
+                <img src="https://img.freepik.com/free-vector/hand-drawn-neuroeducation-illustration_52683-144072.jpg?ga=GA1.1.1218635537.1726047661&semt=ais_hybrid"
+                    alt="">
+                <div class="card-content">
+                    <p><strong>Aptitude and Reasoning Skills</strong> <br> are essential in various competitive exams
+                        and job
+                        assessments. They help you <em>analyze</em> and <em>solve problems</em> efficiently, enhance
+                        critical thinking, and improve decision-making abilities. Mastery in aptitude and reasoning is
+                        crucial for cracking interviews and excelling in your professional career. Essentially, these
+                        skills boost your analytical prowess and open up a wide range of career opportunities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="logo">
+                <img src="https://img.freepik.com/free-vector/programmer-decorative-illustration-flat-design_23-2148244398.jpg?ga=GA1.1.1218635537.1726047661&semt=ais_hybrid"
+                    alt="">
+                <div class="card-content">
+                    <p><strong>Full Stack Development</strong> <br> encompasses both front-end and back-end development,
+                        giving you the skills to create fully functional web applications. It enables you to
+                        <em>design</em> and <em>implement</em> user interfaces as well as manage server-side operations
+                        and databases and excelling in the tech industry. Essentially, full stack skills empower you to handle entire
+                        projects from start to finish, opening up diverse career opportunities.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <ul>
+            <li>Practice coding regularly to enhance your problem-solving skills.</li>
+            <li>Participate in mock interviews to build confidence and improve your communication.</li>
+            <li>Stay updated with the latest industry trends and technologies.</li>
+            <li>Work on real-world projects to gain practical experience.</li>
+            <li>Network with professionals and join online communities for support and guidance.</li>
+        </ul>
+        <h2 class="text">Click on the below button 👇</h2>
+        <button class="btn" onclick="toggleSection('education')">📑</button>
+        <div class="education" id="education" style="display: none;">
+            <h2>Education Resources</h2>
+            <p>Our platform offers a variety of resources to help you prepare for interviews at top tech companies. From
+                educational guides to mock interview practice, we've got you covered.</p>
+            <h3>Common Interview Questions</h3>
+            <ul>
+                <li>What motivated you to pursue a career in technology?</li>
+                <li>Can you describe a challenging project you've worked on?</li>
+                <li>How do you handle tight deadlines?</li>
+                <li>What programming languages are you proficient in?</li>
+                <li>Describe a time when you had to work as part of a team.</li>
+            </ul>
+            <h3>Previous Year Questions</h3>
+            <p>Here are some questions asked by top companies in the past year:</p>
+            <ul>
+                <li>Explain the concept of recursion.</li>
+                <li>What is the difference between an array and a linked list?</li>
+                <li>Describe a time when you had to troubleshoot a difficult problem.</li>
+                <li>How do you stay updated with the latest technology trends?</li>
+                <li>What is your approach to testing and debugging code?</li>
+            </ul>
+        </div>
+        <script>
+            function toggleSection(sectionId) {
+                var section = document.getElementById(sectionId);
+                if (section.style.display === "none" || section.style.display === "") {
+                    section.style.display = "block";
+                } else {
+                    section.style.display = "none";
+                }
+            }
+        </script>
+        <div class="languages-frameworks" id="languages-frameworks">
+            <h2 id="compilers">Top Programming Languages</h2>
+            <div class="languages-container">
+                <div class="language-item">
+                    <a href="https://www.programiz.com/python-programming/online-compiler/"><img
+                            src="https://image.shutterstock.com/image-vector/python-programming-language-icon-vector-260nw-2486626399.jpg"
+                            alt="Python"></a>
+                    <p>Python</p>
+                </div>
+                <div class="language-item">
+                    <a href="https://www.programiz.com/javascript/online-compiler/"><img
+                            src="https://image.shutterstock.com/image-vector/web-development-sign-javascript-vector-260nw-1875934654.jpg"
+                            alt="JavaScript"></a>
+                    <p>JavaScript</p>
+                </div>
+                <div class="language-item">
+                    <a href="https://www.programiz.com/java-programming/online-compiler/"><img
+                            src="https://cdn-icons-png.flaticon.com/128/5968/5968282.png" alt="Java"></a>
+                    <p>Java</p>
+                </div>
+                <div class="language-item">
+                    <a href="https://www.programiz.com/cpp-programming/online-compiler/"><img
+                            src="https://cdn-icons-png.flaticon.com/128/6132/6132222.png" alt="C++"></a>
+                    <p>C++</p>
+                </div>
+                <div class="language-item">
+                    <a href="https://www.programiz.com/c-programming/online-compiler/"><img
+                            src="https://cdn-icons-png.flaticon.com/128/6132/6132221.png" alt="C"></a>
+                    <p>C</p>
+                </div>
+            </div>
+            <h2>Top Frameworks to Learn</h2>
+            <div class="frameworks-container">
+                <div class="framework-item">
+                    <a href="https://react.dev/learn/react-compiler"><img
+                            src="https://cdn-icons-png.flaticon.com/128/1183/1183672.png" alt="React"></a>
+                    <p>React</p>
+                </div>
+                <div class="framework-item">
+                    <a href="https://www.npmjs.com/package/@angular/compiler"> <img
+                            src="https://cdn-icons-png.flaticon.com/128/16511/16511234.png" alt="Angular"></a>
+                    <p>Angular</p>
+                </div>
+                <div class="framework-item">
+                    <a href="https://onecompiler.com/python/3zvetub73"><img
+                            src="https://cdn-icons-png.flaticon.com/128/9307/9307630.png" alt="Django"></a>
+                    <p>Django</p>
+                </div>
+                <div class="framework-item">
+                    <a href="https://onecompiler.com/java/3xwdkvpcc"><img
+                            src="data:image/png;base64,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"
+                            alt="Spring"></a>
+                    <p>Spring</p>
+                </div>
+                <div class="framework-item">
+                    <a href="https://flutlab.io/editor/ab2b7e90-33c3-4414-ace6-d3fda96414b9"><img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEX///9fyfhax/gxufYHW50EWZwDWJxPxfjz+/4IXJ5hhrSi3ftVxvjd5e4AVJrX8P3n9v5HvveG0/nN7P0AT5jf8/140PkATJcARpTS7v245fvE6Py2xtro9v4tqucMs/UARJNOrOAIO4uW2fotu/au3/oGOYnC4PNSfK7v8/fVukePAAADUklEQVR4nO3c21LbMBSFYSuxJVJSUVqDTaEmoS1t3/8F6wNxEluytzvTyd6b9Q+XXPibJaIhHJIEIYQQQgghhBBCCCGEEEIIIYQQQggp6eZ6Qd+vLv24y3twW2rOuZtLP+7yHpwJtQqmCBgWagIGhaqAIaFE4E0UGBAqA46F2oAjoTrgUKgPaOQD46+iAaFGoFEPNOqBRj3QqAca9UCjHmgAZBsRaNQDjXqgUQ806oEGQI4BCCDzvgAIIO8ABJB5AALIPADfE9C4u0s/7vKWAdUvqB6II8ovLAgg8wAEkHkAAsg8AAFkHoAAMg9AAJkHIIDMAxDAuqtFCQTeO3q395yBnyLA7egv8aK5zwAC+L+AK4nAO+3AJPlK/7V0mUA6USyQShQMpBFFAylE4cB5onjgHFEBcJqoAjhFVAKME9UAY8SV+xb+dHnAMDG64K2L/BMoxsAQMQ5cr7dUIh/gmBg9ojWQTOQEHBKnFiQTeQHPiXNAEpEb8JQ4fUSJRH7AI3F+wZYoD3gg0oAzRJ7Ajkg5ol1OHrAhUhecJPIFNkQ6MErkDEySyA9OgsAIkTcwUgQYJOoCBojagCOiPuCAKBK4mgaeEUUC72cmPCXKBG7nhQeiUKAhCDuiUOBqRRE2RLFAmnDtRAJN+w0STbiWCEweHV1Y+Y+Xftx/qSWShFWW5WKJFGGVpRu5RIKwsulmI5c4L+yAcok/qECxxJ/PM0CfHYRSideTxMrb7EBMU6uP2ADfiGmTOmKVe9sSsw6YpsoOag30B2KqkVgV3rdEq5RYlXneEX1r7ImFEmIDjBBlrji8F6uyyHui9z2vfUWVueI5sdoVnbA1nvnqr0mhxMfj+4Zm/1IUb0Rv03QArIkyD2pPrIFl0Zb7/iY88Ylf0exfy7KoP4a8I1A2sVmw5uXZZug7AUo+qO2CuR3zznySV9y/BnkjoFjir5c0xBv75BKfdjSg4HvxqSQNKHrFctYn/V48J0YHVEKc2E8FMbSaknvxqczmzqcCImXABmh1EUNAscQdYcAOKJY4v6LtU0q0VjyxP6gTB9R2b6hKJZY25hsABRMjvhEwy7xQ4s6Ty3cyiR8W9PvPpR8XIYQQQgghhBBCCCGEEEIIIYQQQui99xd9MndVczNj5wAAAABJRU5ErkJggg=="
+                            alt="Flutter"></a>
+                    <p>Flutter</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <h2>What Our Users Say</h2>
+            <div class="testimonial">
+                <p>"TechStack has been a game-changer for me. The resources and guidance helped me land my dream job!" -
+                    <strong>Md.Ansar</strong></p>
+            </div>
+            <div class="testimonial">
+                <p>"The comprehensive tutorials and mock interviews boosted my confidence and prepared me for my
+                    placement exams." - <strong>Ali</strong></p>
+            </div>
+        </div>
+
+        <div class="success-stories">
+            <h2>Success Stories</h2>
+            <div class="story">
+                <h3>From Student to Professional</h3>
+                <p>Meet <strong>Rahul</strong>, who transitioned from a tech enthusiast to a full-stack developer with
+                    the help of TechStack's resources. <br> His journey is a testament to the power of dedication and
+                    the right guidance.</p>
+            </div>
+            <div class="story">
+                <h3>Landing the Dream Job</h3>
+                <p><strong>Sneha</strong> used our mock interviews and coding challenges to secure a position at a top
+                    tech company. <br> Her story inspires many aspiring tech professionals.</p>
+            </div>
+        </div>
+        <div class="quiz-section">
+            <h2>Test Your Knowledge</h2>
+            <p>Take our fun and interactive quizzes to test your knowledge on various tech topics and prepare for your
+                placements!</p>
+            <button onclick="startQuiz()">Start Quiz</button>
+        </div>
+        <script>
+            function startQuiz() {
+                alert("Quiz functionality coming soon!");
+            }
+        </script>
+
+
+        <div class="about" id="about">
+            <h2>About Us</h2>
+            <p>Welcome to TechStack, your ultimate resource hub for career advancement in technology. <br> Our mission is to
+                provide you with the best tools, guidance, and support to help you achieve your professional goals. <br> From
+                comprehensive tutorials to mock interview practice, we've got you covered.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About TechStack</h3>
+                <p>Your ultimate resource hub for career advancement in technology. Join us to stay ahead in the tech
+                    industry.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: <a href="mailto:mdansarali544@gmail.com">mdansarali544@gmail.com</a></p>
+                <p>Phone: <a href="tel:+91">9502486781</a></p>
+                <p>Address: 123 TechStack Avenue, TechCity, TX 75001</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 TechStack. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
